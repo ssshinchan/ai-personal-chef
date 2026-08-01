@@ -1,7 +1,15 @@
 [project]
 name = "ai-personal-chef"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.13"
+description = "AI-powered recipe recommender based on uploaded food images"
+readme = "README.md"
+requires-python = ">=3.10"
 dependencies = [
+    "langchain>=1.3.14",
+    "langchain-tavily>=0.2.18",
+    "langchain-openai>=1.4.1",
+    "python-dotenv>=1.2.2",
+    "fastapi>=0.140.7",
+    "alibabacloud-oss-v2>=1.3.2",
+    "uvicorn>=0.51.0",
 ]
